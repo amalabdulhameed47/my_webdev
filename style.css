@@ -1,0 +1,12 @@
+.myStylings {
+background-color: palegoldenrod;
+}
+
+h1 {
+    color:coral;
+}
+
+
+ul li:hover {
+    background-color:pink;
+  }
