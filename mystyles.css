@@ -1,0 +1,201 @@
+.container {
+    /* header styling */
+    width: 1000px;
+    background-color: lightpink;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items {
+    /* .item1-6 are for the "class activities" gallery */
+    background-color: pink;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 {
+    background-color: lightblue;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.item2 {
+    background-color: lightsalmon;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.item3 {
+    background-color: white;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.item4 {
+    background-color: lightgreen;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.item5 {
+    background-color: lightsteelblue;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.item6 {
+    background-color: cyan;
+    min-height: 300px;
+    width: 30%;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+div p {
+    color: darkslateblue;
+}
+
+header {
+    /* more header stylings */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+main {
+    /* main content styling */
+    background-color: lemonchiffon;
+    min-height: 300px;
+    display: flex;
+    align-items: right;
+}
+
+.class1 {
+    /* welcome message styling */
+    flex: 2;
+    background-color: lemonchiffon;
+}
+
+div h3 {
+    color: rgb(73, 13, 152);
+}
+
+div pre {
+    color: purple;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav ul li a {
+    /*navbar text styling*/
+    color: purple;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    /* colorful hover over navbar*/
+    background-color: rgb(203, 153, 232);
+}
+
+header h2 {
+    align-items: center;
+    color: darkturquoise
+}
+
+.row1 {
+    /* .row1-6 are for table row stylings*/
+    background-color: pink;
+    color: brown
+}
+
+.row2 {
+    background-color: rgb(244, 194, 158);
+    color: darkorange
+}
+
+.row3 {
+    background-color: rgb(244, 243, 158);
+    color: darkolivegreen
+}
+
+.row4 {
+    background-color: rgb(204, 247, 183);
+    color: darkgreen
+}
+
+.row5 {
+    background-color: rgb(188, 238, 240);
+    color: darkblue
+}
+
+div ul li {
+    color: darkmagenta;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    /* footer social media info stylings*/
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: lemonchiffon;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+
+    /* media queries to make the page responsive*/
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    div {
+        grid-template-columns: 1fr;
+    }
+}
