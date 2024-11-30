@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--general page information (charset, content rendering meta tag, links to the css stylesheet)-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="prjstylesamal.css">
+
+<!--adding the title for the page-->
+    <title>Reporting & Analytics Dashboard</title>
+</head>
+<body>
+<div class="grid-container">
+<!--
+<header class="header">
+<div class="menu-icon" onclick="openSidebar()">
+<span class="material-icons-outlined">menu</span>
+</div>
+<div class="header-left">
+<span class="material-icons-outlined">search</span>
+</div>
+<div class="header-right">
+    <span class="material-icons-outlined">notifications</span>
+    <span class="material-icons-outlined">email</span>
+    <span class="material-icons-outlined">account_circle</span>
+
+
+</div>
+</header>
+-->
+
+<!--for the sidebar-->
+<aside id="sidebar">
+<div class="sidebar-title">
+    <div class="sidebar-brand">
+        <span class="material-icons-outlined">dashboard</span> System Dashboard
+    </div>
+    <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+</div>
+
+<ul class="sidebar-list">
+    <a href="https://www.youtube.com/shorts/3_6M1sSm2nU" target="_blank"><li class="sidebar-list-item">
+        <span class="material-icons-outlined">home</span> Home
+    </li></a>
+    <a href="https://www.youtube.com/shorts/3_6M1sSm2nU" target="_blank"><li class="sidebar-list-item">
+        <span class="material-icons-outlined">explore</span> Browse Rooms
+    </li></a>
+</li>
+</li>
+<a href="https://www.youtube.com/shorts/3_6M1sSm2nU" target="_blank"><li class="sidebar-list-item">
+    <span class="material-icons-outlined">dashboard</span> Dashboard
+</li></a>
+    <a href="https://www.youtube.com/shorts/3_6M1sSm2nU" target="_blank"><li class="sidebar-list-item">
+        <span class="material-icons-outlined">account_circle</span> Account Settings
+    </li></a>
+</ul>
+</aside>
+
+<!--main section stuff-->
+<main class="main-container">
+<div class="main-title">
+    <p class="font-weight-bold">DASHBOARD</p>
+</div>
+
+<div class="main-cards">
+
+<div class="card">
+    <div class="card-inner">
+        <p class="text-primary">TOTAL REGISTERED USERS</p>
+<span class="material-icons-outlined text-blue">person</span>
+    </div>
+<span class="text-primary font-weight-bold">544</span>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <p class="text-primary">TOTAL BOOKINGS MADE</p>
+<span class="material-icons-outlined text-orange">book</span>
+    </div>
+<span class="text-primary font-weight-bold">12189</span>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <p class="text-primary">MONTHLY BOOKINGS</p>
+<span class="material-icons-outlined text-green">calendar_month</span>
+    </div>
+<span class="text-primary font-weight-bold">6719</span>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <p class="text-primary">ALERTS</p>
+<span class="material-icons-outlined text-red">notifications</span>
+    </div>
+<span class="text-primary font-weight-bold">56</span>
+</div>
+</div>
+
+<div class="charts">
+
+<div class="charts-card">
+<p class="chart-title">Top 5 Most Booked Rooms</p>
+<div id="bar-chart">
+</div>
+</div>
+<div class="charts-card">
+    <p class="chart-title">Booking Analytics</p>
+    <div id="area-chart">
+    </div>
+    </div>
+
+</div>
+</main>
+<!--end main-->
+
+</div>
+
+
+<!--ApexCharts-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/4.0.0/apexcharts.min.js"></script>
+
+<!--js file-->
+    <script src="prjJSamal.js"></script>
+</body>
+</html>

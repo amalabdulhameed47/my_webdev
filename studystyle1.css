@@ -1,0 +1,16 @@
+body {
+background-image: url(images/pic.png);
+background-repeat: repeat;
+}
+
+h1, h2, h3 {
+text-transform: capitalize;
+text-decoration: underline;
+color:blue;
+}
+
+p.customP {
+    font-family: Arial;
+    font-size:18pt;
+    background-color:rgb(30,150,25);
+}
