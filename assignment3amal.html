@@ -1,0 +1,28 @@
+<html> <!--assignment 3 amal 202204700-->
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <!--picocss stylesheet link-->
+</head>
+
+<body>
+    <div class="overflow-auto">
+        <table> <!--display the information from the api fetch() above in an HTML table with picocss styling-->
+            <thead>
+                <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Semester</th>
+                    <th scope="col">The Programs</th>
+                    <th scope="col">Nationality</th>
+                    <th scope="col">Colleges</th>
+                    <th scope="col">Number of students</th>
+                </tr>
+            </thead>
+            <tbody id="js-api-results">
+            </tbody>
+        </table>
+    </div>
+    <script src="jsapi.js"></script>
+
+</body>
+
+</html>
